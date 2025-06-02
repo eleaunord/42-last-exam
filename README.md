@@ -1,6 +1,6 @@
 # 🧠 mini\_serv – 42 Final Exam Practice
 
-## 📋 Project Overview
+## Project Overview
 
 `mini_serv` is a small network server written in C for the 42 school exam preparation.
 The goal is to implement a **multi-client chat server** over TCP using only a restricted set of system calls and functions.
@@ -9,7 +9,7 @@ The server listens on `127.0.0.1` and allows clients to connect and broadcast me
 
 ---
 
-## 🎯 Assignment Summary
+## Assignment Summary
 
 * Listens only on `127.0.0.1` at a port passed as argument.
 * Uses `select()` to manage multiple clients without blocking.
@@ -25,7 +25,7 @@ The server listens on `127.0.0.1` and allows clients to connect and broadcast me
 
 ---
 
-## ⚙️ Usage
+## Usage
 
 ### Compile:
 
@@ -63,7 +63,7 @@ Type messages and observe how they're broadcasted.
 
 ---
 
-## ❗ Constraints
+## Constraints
 
 * Only use the following allowed functions:
   `write, close, select, socket, accept, listen, send, recv, bind, strstr, malloc, realloc, free, calloc, bzero, atoi, sprintf, strlen, exit, strcpy, strcat, memset`
@@ -74,7 +74,7 @@ Type messages and observe how they're broadcasted.
 
 ---
 
-## 🧪 What I Learned
+## What I Learned
 
 * How to use `select()` to handle multiple sockets
 * How to implement basic TCP server logic from scratch
@@ -84,14 +84,14 @@ Type messages and observe how they're broadcasted.
 
 ---
 
-## 🛑 Error Handling
+## Error Handling
 
 * Missing arguments → `Wrong number of arguments\n` and exit(1)
 * System call or memory failure → `Fatal error\n` and exit(1)
 
 ---
 
-## 🛠️ Tip for Reviewers
+## Tip for Reviewers
 
 To reset sockets cleanly during testing:
 

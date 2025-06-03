@@ -1,4 +1,4 @@
-# 🧠 mini\_serv – 42 Final Exam Practice
+# 🧠 mini\_serv – Final Exam Practice
 
 ## Project Overview
 
